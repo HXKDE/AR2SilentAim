@@ -32,14 +32,14 @@ getgenv().SilentAimSettings = Settings
 local MainFileName = "UniversalSilentAim"
 local SelectedFile, FileToSave = "", ""
 
-local Camera = workspace.CurrentCamera
+local Camera = Workspace.CurrentCamera
 local Players = game:GetService("Players")
 local RunService = game:GetService("RunService")
 local GuiService = game:GetService("GuiService")
 local UserInputService = game:GetService("UserInputService")
 local HttpService = game:GetService("HttpService")
 
-local LocalPlayer = Players.LocalPlayer
+local LocalPlayer = PlayerService.LocalPlayer
 local Mouse = LocalPlayer:GetMouse()
 
 local GetChildren = game.GetChildren
